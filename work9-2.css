@@ -16,73 +16,69 @@ footer {
 }
 
 .main {
-  width:100%;
-
-}
-.box {
   width:960px;
   margin:50px auto;
-  list-style:none;
   display:flex;
   justify-content:space-between;
 }
-.box1 {
+.box {
+  margin-right:30px;
+  padding:10px;
   width:300px;
   position:relative;
   background-color: #EEEEEE;
+}
+.box:last-child {
+  margin-right:0;
 }
 .pic1 {
   background-image:url(img/flow01.png);
   background-size:cover;
   background-position:bottom;
   height:150px;
-  margin:10px 10px 15px 10px;
 }
 .step1 {
   color:white;
   background-color:#FF9A4B;
   position:absolute;
+  top:0;
+  left:0;
 }
-.box2 {
-  width:300px;
-  position:relative;
-  background-color:#EEEEEE;
-}
+
 .pic2 {
   background-image:url(img/flow02.png);
   background-size:cover;
   background-position:bottom;
   height:150px;
-  margin:10px 10px 15px 10px;
+
 }
 .step2 {
   color:white;
   background-color:#FF9A4B;
   position:absolute;
+  top:0;
+  left:0;
 }
-.box3 {
-  width:300px;
-  position:relative;
-  background-color:#EEEEEE;
-}
+
 .pic3 {
   background-image:url(img/flow03.png);
   background-size:cover;
   background-position:bottom;
   height:150px;
-  margin:10px 10px 15px 10px;
 }
 .step3 {
   color:white;
   background-color:#FF9A4B;
   position:absolute;
+  top:0;
+  left:0;
 }
 
 .text {
   margin:0 auto ;
 }
 h3 {
-  margin-bottom:5px;
+  margin:15px 0 5px;
 }
 .detail {
   flex-wrap:wrap;
